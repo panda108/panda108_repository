@@ -1,5 +1,5 @@
 server:
-  context-path: ${spring.application.name}
+  context-path: /${spring.application.name}
   port: 8771
   session:
     timeout: 30000
